@@ -1,0 +1,18 @@
+//https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/BIRYANI
+#include <stdio.h>
+
+int main()
+{
+    int t;
+    scanf("%d", &t);
+
+    for(int i=1; i<=t; i++) {
+        int x, y;
+        scanf("%d%d", &x, &y);
+        int total = x*y;
+        printf("%d\n", total);
+    }
+
+    return 0;
+}
+
